@@ -1,0 +1,47 @@
+/* HomeInfo3.css */
+
+/* Main container: stacked vertically */
+.info-section3 {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    width: 87%;
+    padding: 80px 80px 80px 80px;
+    align-items: center; /* Center items horizontally */
+    gap: 80px;
+    margin: 0 auto; /* Center the container */
+    background: #F2F4F8;
+  }
+  
+  /* Text container: center the text */
+  .info-text3 {
+    text-align: center;
+  }
+  
+  /* Header and paragraph styles */
+  .info-text3 h1 {
+    font-size: 3rem;
+    margin-bottom: 45px;
+  }
+  
+  .info-text3 p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  
+  /* Image container: display images in a row */
+  .info-image3 {
+    display: flex;
+    justify-content: center; /* Center the images within the container */
+    gap: 40px; /* Space between images */
+    width: 100%;
+  }
+  
+  /* Each image styling */
+  .info-image3 img {
+    flex: 1;               /* Allow images to grow equally */
+    max-width: 350px;      
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  

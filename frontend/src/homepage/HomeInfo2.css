@@ -1,0 +1,38 @@
+/* HomeInfo2.css */
+
+/* Main section container */
+.info-section2 {
+    display: flex;
+    width: 85%;
+    padding: 80px;
+    align-items: center;
+    gap: 80px;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Left side image styling */
+  .info-image2 img {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Right side content container */
+  .info-content2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+    grid-template-rows: auto auto; /* Two rows, auto height */
+    gap: 64px; /* Gap between grid items */
+    flex: 1 0 0; /* Allow the grid to expand */
+    padding: 32px 0;
+  }
+  
+  /* Each individual info item (icon + paragraph) */
+  .info-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  

@@ -1,0 +1,36 @@
+/* src/HomeHero.css */
+.hero-container {
+    display: flex;
+    width: 87%;
+    padding: 160px 80px 80px 80px;
+    align-items: center;
+    gap: 80px;
+    margin: 0 auto; /* centers the container horizontally */
+    background: #F2F4F8
+  }
+  
+  .hero-text {
+    flex: 1;
+    font: Roboto;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  
+  .hero-image {
+    flex: 1;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  

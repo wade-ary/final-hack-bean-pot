@@ -1,0 +1,78 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  /* Left side (form and text) */
+  .login-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .login-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-left form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  
+  .login-left input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+  }
+
+  
+  .login-left button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-left button:hover {
+    background-color: #21867a;
+  }
+  
+  /* Footer with divider and link */
+  .login-footer {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Right side (image) */
+  .login-right {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+  }
+  
+  .login-right img {
+    max-width: 600px;
+    height: 579px;
+    object-fit: cover;
+  }
+  
